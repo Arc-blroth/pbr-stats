@@ -1,0 +1,9 @@
+{
+  "name": "pbr-stats",
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "erlpack": "^0.1.4",
+    "stream-chain": "^2.2.5",
+    "stream-json": "^1.7.5"
+  }
+}
