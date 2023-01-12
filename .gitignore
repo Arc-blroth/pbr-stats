@@ -11,3 +11,5 @@
 #.pnp.*
 
 *.har
+config.json
+output.json
