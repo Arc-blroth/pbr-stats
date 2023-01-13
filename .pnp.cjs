@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["discord-snowflake", "npm:2.0.0"],\
             ["erlpack", "npm:0.1.4"],\
             ["stream-chain", "npm:2.2.5"],\
             ["stream-json", "npm:1.7.5"]\
@@ -293,6 +294,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/depd-npm-1.1.2-b0c8414da7-6b406620d2.zip/node_modules/depd/",\
           "packageDependencies": [\
             ["depd", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["discord-snowflake", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/discord-snowflake-npm-2.0.0-19dac62f71-aefff84f87.zip/node_modules/discord-snowflake/",\
+          "packageDependencies": [\
+            ["discord-snowflake", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -833,6 +843,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["pbr-stats", "workspace:."],\
+            ["discord-snowflake", "npm:2.0.0"],\
             ["erlpack", "npm:0.1.4"],\
             ["stream-chain", "npm:2.2.5"],\
             ["stream-json", "npm:1.7.5"]\

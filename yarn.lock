@@ -224,6 +224,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"discord-snowflake@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "discord-snowflake@npm:2.0.0"
+  checksum: aefff84f87c109f0acf2d95998174e26aa40ffb07c90738ce101d0ee67f0f7fd78de7309ad6a24cbedec9fb12f5da7920392506f9d336448bf64409155889914
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -705,6 +712,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "pbr-stats@workspace:."
   dependencies:
+    discord-snowflake: ^2.0.0
     erlpack: ^0.1.4
     stream-chain: ^2.2.5
     stream-json: ^1.7.5
